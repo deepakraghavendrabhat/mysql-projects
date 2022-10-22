@@ -6,6 +6,8 @@ create database telcocustomerdb;
 
 use telcocustomerdb;
 
+select * from telcocustomerdb.customers where customerID = '6713-OKOMC';
+
 CREATE TABLE customers (
 customerID	VARCHAR(40) NOT NULL PRIMARY KEY,
 gender	VARCHAR(40),
